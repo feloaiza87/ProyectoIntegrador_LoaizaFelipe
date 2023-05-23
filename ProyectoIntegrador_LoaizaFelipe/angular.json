@@ -25,11 +25,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "ProyectoIntegrador_LoaizaFelipe/node_modules/bootstrap/dist/css/bootstrap.css"
+              "src/styles.css"
+          
             ],
             "scripts": []
-            "ProyectoIntegrador_LoaizaFelipe/node_modules/bootstrap/dist/js/bootstrap.js"
+            
           },
           "configurations": {
             "production": {
@@ -89,9 +89,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "ProyectoIntegrador_LoaizaFelipe/node_modules/bootstrap/dist/css/bootstrap.css"
+
             ],
-            "scripts": []
+            "scripts": [
+              "ProyectoIntegrador_LoaizaFelipe/node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           }
         }
       }
